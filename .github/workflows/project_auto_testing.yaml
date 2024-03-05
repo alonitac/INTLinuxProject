@@ -1,0 +1,21 @@
+name: Project auto-testing
+on:
+  push:
+    branches:
+      - main
+
+permissions: {}
+
+jobs:
+  LinuxProjectTest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Test authenticity verification
+        run: |
+          HASH=$(find test -type f -exec cat {} + | md5sum)
+          test ${HASH:0:32} = "15d8ac6f8cdca014a900b4f49a90dcb6" || (echo "You project can not be tested. It seems that the \"test\" directory, which contains the testing scripts, has been modified. To resolve this, you can restore the original files from the original project repo: https://github.com/alonitac/LinuxProject" && exit 1)
+
+      - name: Linux Project test
+        run: | 
+          bash test/test.sh
