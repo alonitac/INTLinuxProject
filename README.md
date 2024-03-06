@@ -1,5 +1,5 @@
-> [!NOTE]
-> This project is part of the [DevOpsTheHardWay](https://github.com/alonitac/DevOpsTheHardWay) course. Please [onboard the course]() before starting the project. 
+> [!IMPORTANT]
+> This project is part of the [DevOpsTheHardWay](https://github.com/alonitac/DevOpsTheHardWay) course. Please [onboard the course](https://github.com/alonitac/DevOpsTheHardWay/blob/main/tutorials/onboarding.md) before starting the project. 
 
 
 # Linux Project  [![](../../actions/workflows/project_auto_testing.yaml/badge.svg?event=push)](../../actions/workflows/project_auto_testing.yaml/)
@@ -13,29 +13,14 @@ It will familiarize you with the project workflows and testing methods used thro
 
 ## Preliminaries
 
-The first step we would like you to do, is to **fork this repo**. 
-
-Fork? repo? What!? Let's take a step back. 
-
-The website you are visiting now is called **GitHub**.
-It's a platform where millions of developers from all around the world collaborate on projects and share code. 
-
-Each project on GitHub is stored in something called a **Git repository**, or **repo** for short. 
-A Git repository is like a folder that contains all the files and resources related to a project.
-These files can include code, images, documentation, and more.
-
-
-**This Linux project** is also stored and provided to you as a Git repo.
-You'll answer the project's questions here, inside the repo, as if you were working on a real code project. 
-
-However, because this repository is owned by me, you don't have permission to directly make changes.
+Because this project repository is owned by me, you don't have permission to directly make changes.
 Thus, I want you to **fork** this repository. 
 When you fork a repository, you create a copy of the original repository under your own GitHub account. 
 This copy is completely separate from the original repository, so you can make changes to it without altering the original project.
 
 
 1. [Fork this repo](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository). 
-2. Now, [clone your forked repository into your PyCharm environment](https://www.jetbrains.com/help/pycharm/set-up-a-git-repository.html#clone-repo). Cloning creates a local copy of the repository on your local computer. You'll work on the project's solution in PyCharm.   
+2. Now, [clone your forked repository into a new PyCharm project](https://www.jetbrains.com/help/pycharm/set-up-a-git-repository.html#clone-repo). You'll work on the project's solution in PyCharm.   
 
 > [!Note]
 > By working on this project, you are generating an activity on your GitHub profile.
