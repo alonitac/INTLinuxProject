@@ -1,8 +1,8 @@
 > [!IMPORTANT]
-> This project is part of the [DevOpsTheHardWay](https://github.com/alonitac/DevOpsTheHardWay) course. Please [onboard the course](https://github.com/alonitac/DevOpsTheHardWay/blob/main/tutorials/onboarding.md) before starting the project. 
+> This project is part of the [DevOpsTheHardWay][DevOpsTheHardWay] course. Please [onboard the course][onboarding_tutorial] before starting the project. 
 
 
-# Linux Project  [![](../../actions/workflows/project_auto_testing.yaml/badge.svg?event=push)](../../actions/workflows/project_auto_testing.yaml/)
+# Linux Project  [![][autotest_badge]][autotest_workflow]
 
 ## Project Goals
 
@@ -18,9 +18,8 @@ Thus, I want you to **fork** this repository.
 When you fork a repository, you create a copy of the original repository under your own GitHub account. 
 This copy is completely separate from the original repository, so you can make changes to it without altering the original project.
 
-
-1. [Fork this repo](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository). 
-2. Now, [clone your forked repository into a new PyCharm project](https://www.jetbrains.com/help/pycharm/set-up-a-git-repository.html#clone-repo). You'll work on the project's solution in PyCharm.   
+1. [Fork this repo][fork_github]. 
+2. Now, Clone your forked repository into a new PyCharm project (read [here][clone_pycharm] how). You'll work on the project's solution in PyCharm.   
 
 > [!Note]
 > By working on this project, you are generating an activity on your GitHub profile.
@@ -160,7 +159,7 @@ We'll guide you through these steps:
 
 2. Next, [push](https://www.jetbrains.com/help/pycharm/commit-and-push-changes.html#push) your commits to GitHub. 
 3. To watch the automated test execution on your solution:
-   - In your GitHub repo main page, navigate to [Actions](../../actions).
+   - In your GitHub repo main page, navigate to [Actions][github_actions].
 
      You may need to enable GitHub Actions for the first time if it's not already enabled. Free GitHub accounts typically [offer sufficient execution time](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#included-storage-and-minutes) to run the project tests.
    - In Actions page, enter the executed workflow run (you'll recognize it by your commit message).
@@ -179,13 +178,11 @@ You are highly encourages to share your project with other students by creating 
 
 In our context, Pull Request (PR) is a mechanism in GitHub which allows others to review your work and suggest changes and improvements.
 
-[//]: # (In addition, students who share their work via a pull request would be included in [DevOpsTheHardWay - Hall of Fame]&#40;&#41;)
-
 We'll talk more about pull requests later on. 
 
 To create a pull request:
 
-- In your GitHub repo main page, navigate to [Pull Requests](../../pulls).
+- In your GitHub repo main page, navigate to [Pull Requests][pull_requests].
 - Choose **New Pull Request**.
 - In the **Comparing changes** section, choose your forked repo as the **head repository**, and our repo (`alonitac/LinuxProject`) as the **base repository**. Both branches should be `main`. As follows:
   ![linux_project_pr][linux_project_pr]
@@ -205,3 +202,12 @@ Feel free to explore other's pull requests to discover different solution approa
 
 [linux_project_linuxkernel]: https://alonitac.github.io/DevOpsTheHardWay/img/linux_project_linuxkernel.png
 [linux_project_pr]: https://alonitac.github.io/DevOpsTheHardWay/img/linux_project_pr.png
+
+[DevOpsTheHardWay]: https://github.com/alonitac/DevOpsTheHardWay
+[onboarding_tutorial]: https://github.com/alonitac/DevOpsTheHardWay/blob/main/tutorials/onboarding.md
+[autotest_badge]: ../../actions/workflows/project_auto_testing.yaml/badge.svg?event=push
+[autotest_workflow]: ../../actions/workflows/project_auto_testing.yaml/
+[fork_github]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository
+[clone_pycharm]: https://www.jetbrains.com/help/pycharm/set-up-a-git-repository.html#clone-repo
+[github_actions]: ../../actions
+[pull_requests]: ../../pulls
