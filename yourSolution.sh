@@ -1,11 +1,11 @@
 wget https://alonitac.github.io/DevOpsTheHardWay/linux_project/secretGenerator.tar.gz
+cd Downloads
 tar -xzf secretGenerator.tar.gz
-cd
-cd Downloads/src/
+cd src/
 rm -r maliciousFiles
 rm important.link
 mkdir secretDir
-touch Downloads/src/secretDir/.secret
-cd Downloads/src/secretDir/
-chmod -x .secret
+touch secretDir/.secret
+chmod o-rw secretDir/.secret
+chmod g-rw secretDir/.secret
 /bin/bash generateSecret.sh

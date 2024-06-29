@@ -7,7 +7,7 @@ Strace command output shows all the system calls which has been made when we exe
 It Checks if a file exists and is readable.
 In the output we can see that the file executed and asked to replace the current program which is running on the CPU.
 It asked to check where is the heap memory end in order to locate a place to the current program there.
-It performs various operations such as opening files, writing to files, and closing them.
+It performs various operations such as create a folder `welcomeToDevOpsTheHardWay` and a file inside, opening files, writing to files, and closing them.
 In the end, whatIdo exits with a status code of 0 which indicates on successful completion.
 
 
