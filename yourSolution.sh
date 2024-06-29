@@ -6,5 +6,6 @@ rm -r maliciousFiles
 rm important.link
 mkdir secretDir
 touch Downloads/src/secretDir/.secret
+cd Downloads/src/secretDir/
 chmod -x .secret
 /bin/bash generateSecret.sh
