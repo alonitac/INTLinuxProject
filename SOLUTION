@@ -39,3 +39,4 @@ D.  Suggest a method to represent a floating point numbers, using 8 bits binary 
     3. The num check if it fits to 128, if it does decrease 128 from num and continue to check the rest of the numbers on scale
         if its not - go to the next number on the scale, to 64 and check if it fits.
     4. The fraction you take and multiplied by 2
+
