@@ -1,7 +1,7 @@
-cd /downloads/src
-mkdir secretDir
-rm maliciousFiles/
-touch .secret
-chmod -x .secret
+rm -r Downloads/src/maliciousFiles/
 rm important.link
+cd Downloads/src
+mkdir secretDir
+touch Downloads/src/secretDir/.secret
+chmod -x .secret
 /bin/bash generateSecret.sh
