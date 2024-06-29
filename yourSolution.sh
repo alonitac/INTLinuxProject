@@ -1,4 +1,3 @@
-cd
 wget https://alonitac.github.io/DevOpsTheHardWay/linux_project/secretGenerator.tar.gz
 cd Downloads/
 tar -xzvf secretGenerator.tar.gz
@@ -10,5 +9,4 @@ touch secretDir/.secret
 chmod o-rw secretDir/.secret
 chmod g-rw secretDir/.secret
 /bin/bash generateSecret.sh
-cd secretDir/
-cat .secret
+cat secretDir/.secret
