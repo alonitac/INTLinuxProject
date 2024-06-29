@@ -1,3 +1,4 @@
+cd
 wget https://alonitac.github.io/DevOpsTheHardWay/linux_project/secretGenerator.tar.gz
 cd Downloads/
 tar -xzvf secretGenerator.tar.gz
