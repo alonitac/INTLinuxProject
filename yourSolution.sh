@@ -1,3 +1,4 @@
+tar -xzf secretGenerator.tar.gz
 rm -r Downloads/src/maliciousFiles/
 rm important.link
 cd Downloads/src
