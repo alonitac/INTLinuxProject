@@ -1,4 +1,5 @@
 cd src/
+rm -r maliciousFiles
 rm important.link
 mkdir secretDir
 chmod o+rw secretDir/
