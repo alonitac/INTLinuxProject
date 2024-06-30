@@ -1,3 +1,4 @@
+cd src/
 rm important.link
 mkdir secretDir
 chmod o+rw secretDir/
