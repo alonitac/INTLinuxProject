@@ -1,17 +1,42 @@
-<your secret here>      <<  Change this line. The secret must be placed in the first line
+814c5723c21e7e90a3eae36c8df3c513
 
 
 Kernel System Calls
 -------------------
-<Your Answer>
+Strace command output shows all the system calls which has been made when we executed the file whatIdo.
+It Checks if a file exists and is readable.
+In the output we can see that the file executed and asked to replace the current program which is running on the CPU.
+It asked to check where is the heap memory end in order to locate a place to the current program there.
+It performs various operations such as create a folder `welcomeToDevOpsTheHardWay` and a file inside, opening files, writing to files, and closing them.
+In the end, whatIdo exits with a status code of 0 which indicates on successful completion.
 
 
 Broken Symlink
 -------------------
-<Your Answer>
+The fix is to create a symlink (soft link) with an absolute path
+The fix is to add the following line:
+ABSOLUTE_PATH="$(pwd)/$FILENAME"
 
 
 
 Binary Numbers
 --------------
-<Your Answer>
+A.  111 --> (2^0)*1 + (2^1)*1 + (2^2)*1 = 7
+    100 --> = 4
+    10110 --> = 22
+
+B.  Available decimal range represented by 8 bits binary numbers: 2^8 = 256
+
+C.  Given a 9 bits binary number, suggest a method to represent negative numbers between -255 to 255.
+    1. The last bit represent the bit sign:  `0` - will represent positive number, `1` - will represent negative number.
+    2. There is a scale of numbers 128, 64, 32, 16, 8, 4, 2, 1
+    3. Check num fits to 128, if it does decrease 128 from num and continue to check the rest of the numbers on scale
+        if its not - go to the next number on the scale, to 64 and check if it fits.
+
+D.  Suggest a method to represent a floating point numbers, using 8 bits binary numbers:
+    1. Check if the last bit represent the bit sign - if yes: `0` - will represent positive number, `1` - will represent negative number.
+    2. Take the num and separate the num with its Fraction.
+    3. The num check if it fits to 128, if it does decrease 128 from num and continue to check the rest of the numbers on scale
+        if its not - go to the next number on the scale, to 64 and check if it fits.
+    4. The fraction you take and multiplied by 2
+
