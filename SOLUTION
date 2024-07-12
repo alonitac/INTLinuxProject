@@ -1,17 +1,17 @@
-<your secret here>      <<  Change this line. The secret must be placed in the first line
+<814c5723c21e7e90a3eae36c8df3c513>      <<  Change this line. The secret must be placed in the first line
 
 
 Kernel System Calls
 -------------------
-<Your Answer>
+<Creates a folder named: "welcomeToDevOpsTheHardWay" and inside it a file named: "GoodLuck">
 
 
 Broken Symlink
 -------------------
-<Your Answer>
+<symbolic link is being moved into the backups directory, but it still points to the old location of the backup files. To fix it run :ln -sf ../$FILENAME backups/latest-backup.obj>
 
 
 
 Binary Numbers
 --------------
-<Your Answer>
+<111=7,100=4,10110=22>
